@@ -4,9 +4,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Honda</title>
+    <title>HONDA-CBR</title>
+
+    <!-- added poppins font from font awesome  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+
+    <!-- linking to the external css file to over right some elements -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- link bootstrap css  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <h1>welcome to assignment 3</h1>
+    <header class="bg-secondary w-100 pb-5 mb-5">
+        <!-- nav bar  -->
+        <nav class="container navbar navbar-expand-lg navbar-light bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- end of nav bar -->
+
+        <!-- banner section -->
+        <section class="container d-lg-flex justify-content-around align-items-center mb-5 text-white">
+            <div>
+                <p class="fs-6 fw-lighter mb-1">
+                    Computer-controlled digital transistorized with electronic advance
+                </p>
+                <h1 class="fw-bold mb-3">
+                    Honda CBR 300R
+                </h1>
+                <p class="w-75 fs-5 fw-lighter">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+    
+                <!-- Button trigger modal -->
+               <button type="button" class="btn btn-warning py-3 px-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Purchase
+               </button>
+      
+                <!-- Modal -->
+               <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                 <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                     </div>
+                    <div class="modal-body">
+              ...
+                    </div>
+                   <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                     <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+               </div>
+            </div>
+               </div>
+    
+            </div>
+ 
+
+           <div>
+               <!-- responsive problem here for w-100  -->
+               <!-- have to fix it later -->
+               <img src="images/header-bike.png" alt="Beleive in Hero Honda">
+           </div>
+
+        </section>
+        <!-- banner section end -->
+
+
+    </header>
+    <main>
+
+        <!-- featured bike section  -->
+        <section class="container mb-5">
+            <div class="d-flex flex-column justify-content-center align-items-center mb-4">
+                <h1 class="fw-bold">
+                    Fetured Bikes 2021
+                </h1>
+                <p>
+                    Best bike collection
+                </p>
+            </div>
+            <div class="d-lg-flex justify-content-around align-items-center">
+                <div>
+                    <img style="height:243px; width 288px;  filter: grayscale(100%);" src="images/feature-bike.jpg" alt="" >
+                </div>
+                <div>
+                    <img style="height:243px; width 288px;" src="images/feature-bike.jpg" alt="" >
+                </div>
+                <div>
+                    <img style="height:243px; width 288px;  filter: grayscale(100%);" src="images/feature-bike.jpg" alt="" >
+                </div>
+                
+            </div>
+
+        </section>
+        <!-- featured bike section end here  -->
+
+        <!-- happy section  -->
+        <section class="container">
+
+            <!-- heading div -->
+            <div class="d-flex justify-content-center align-items-center">
+                <h1 class="fw-bold">
+                    <span>Happy</span>
+                    <span class="text-warning">Clients says</span>
+                </h1>
+            </div>
+            <!-- end of heading div  -->
+
+            <!-- card div: start   -->
+        
+             <!-- card div:end  -->
+
+
+        </section>
+        <!-- happy section end here  -->
+
+
+
+
+    </main>
+    <footer class="container">
+
+    </footer>
+
+    <!-- link bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
