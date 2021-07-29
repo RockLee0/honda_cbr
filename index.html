@@ -11,17 +11,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
 
-    <!-- linking to the external css file to over right some elements -->
-    <link rel="stylesheet" href="style.css">
-
     <!-- link bootstrap css  -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <style>
-      body{
-    font-family: 'Poppins', sans-serif;
-     }
-    </style>
+    <!-- link external css  -->
+    <link rel="stylesheet" href="style.css">
 
 
 
@@ -30,11 +24,11 @@
 
 <!--------------------- Header start------------------>
 
-    <header class="bg-secondary w-100 pb-5 pt-2 px-2 mb-5">
+    <header class="bg-dark w-100 pb-5 pt-2 px-2 mb-5">
         <!-- nav bar  -->
-        <nav class="container navbar navbar-expand-lg navbar-light bg-secondary">
+        <nav class="container navbar navbar-expand-lg navbar-light bg-dark mb-3">
           <div class="container-fluid">
-            <a class="navbar-brand text-light fw-bold" href="#">HONDA CBR</a>
+            <a class="navbar-brand text-warning fw-bold" href="#">HONDA CBR</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -88,7 +82,7 @@
                     </div>
                    <div class="modal-footer">
                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                     <button type="button" class="btn btn-primary">Understood</button>
+                     <button type="button" class="btn btn-warning">Understood</button>
                     </div>
                </div>
             </div>
@@ -109,6 +103,8 @@
 <!--------------------- Header end------------------>
 
 
+
+
 <!--------------------- main start------------------>
 
     <main>
@@ -117,10 +113,10 @@
         <section class="container ps-5 mb-5">
             <div class="d-flex flex-column justify-content-center align-items-center mb-4">
                 <h1 class="fw-bold">
-                    Fetured Bikes 2021
+                    Fetured Bikes <span class="text-warning">2021</span>
                 </h1>
                 <p>
-                    Best bike collection
+                    Best <span class="text-warning"> bike </span> collection
                 </p>
             </div>
             <div class="d-lg-flex justify-content-around align-items-center">
@@ -331,7 +327,8 @@
 
             <!-- extra item 1  -->
          <section class="container my-5">
-          <h2 class="fw-bold text-center my-4">Login to have additional Info</h2>
+          <h2 class="fw-bold text-center my-4">Login to have additional 
+          <span class="text-warning"> Info</span></h2>
            
           <!-- form  -->
           <form class="w-50 mx-auto">
@@ -348,7 +345,7 @@
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
-            <button type="button" class="btn btn-warning py-2 px-5 fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <button type="button" class="btn btn-warning py-2 px-5 fw-bold">
               Log In
              </button>
           </form>
@@ -359,24 +356,24 @@
          <!-- extra item 2  -->
          <section class="container my-5">
           <h2 class="fw-bold text-center my-4">
-            Choose Bikes By Brands
+            Choose Bikes By <span class="text-warning">Brands</span>
             </h2>
 
             <div class="container">
               <div class="row g-2">
                 <div class="col-4">
                   <div class="p-3 border bg-light">
-                    <a href=""><img class="img-fluid" src="images/honda-logo.jpg" alt=""></a>
+                    <a href="https://www.honda.com/" target="_blank"><img class="img-fluid" src="images/honda-logo.jpg" alt=""></a>
                   </div>
                 </div>
                 <div class="col-4">
                   <div class="p-3 border bg-light">
-                    <a href=""><img class="img-fluid" src="images/suzuki-logo.jpg" alt=""></a>
+                    <a href="https://www.suzuki.com.bd/" target="_blank"><img class="img-fluid" src="images/suzuki-logo.jpg" alt=""></a>
                   </div>
                 </div>
                 <div class="col-4">
                   <div class="p-3 border bg-light">
-                    <a href=""><img class="img-fluid" src="images/bajaj-logo.jpg" alt=""></a>
+                    <a href="https://www.bajajauto.com/" target="_blank"><img class="img-fluid" src="images/bajaj-logo.jpg" alt=""></a>
                   </div>
                 </div>
                 
@@ -396,8 +393,8 @@
 
 <!-------------------foter start---------------------------->
 
-    <footer class="container bg-dark p-5 ">
-      <div class="text-white">
+    <footer class="bg-dark p-5 ">
+      <div class="container text-white">
         <div>
           <h6>
             <span>Download Now</span> <span>License</span>
@@ -410,7 +407,7 @@
           <p>&copy; 2020 bike. All rights reserved</p>
 
         </div>
-        <h5> Get the app </h5>
+        <h5 class="text-warning"> Get the app </h5>
         </div>
 
       </div>
